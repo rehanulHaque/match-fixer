@@ -26,7 +26,9 @@ export default function page() {
         <div>
           <Input {...register("password")} placeholder="Password" />
         </div>
-          <Button>Login</Button>
+          <Button disabled>Login</Button>
+          <div className="text-center">Or</div>
+            <Button type="submit" variant="outline">Login with Google</Button>
         <div>
           <p>
             Don't have an account{" "}
